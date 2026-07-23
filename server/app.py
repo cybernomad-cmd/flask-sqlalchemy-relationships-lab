@@ -14,6 +14,12 @@ app.json.compact = False
 migrate = Migrate(app, db)
 db.init_app(app)
 
+@app.route("/")
+def index():
+    return jsonify({
+        "message": "Welcome to the Flask SQLAlchemy Relationships API!"
+    }), 200
+
 
 @app.route("/events")
 def get_events():
