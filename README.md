@@ -211,7 +211,7 @@ Best Practice documentation steps:
 
 ## Summary
 
-In this lab, you modeled and built one-to-one, one-to-many, and 
+In this lab, I modeled and built one-to-one, one-to-many, and 
 many-to-many relationships using Flask-SQLAlchemy. You seeded 
 and queried relational data, added JSON-based endpoints, and 
 solidified best practices for backend database modeling.
